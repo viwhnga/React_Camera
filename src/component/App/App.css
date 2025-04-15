@@ -1,5 +1,11 @@
+
+
 .App {
+  background-color: yellow;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -22,6 +28,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 50px;
 }
 
 .App-link {
