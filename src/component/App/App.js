@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../Header/Header';
 import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
+import Bai1 from '../../BtProps/Bai1';
 // import React, { Component } from 'react';
 
 // function One() {
@@ -21,7 +22,9 @@ function App() {
             <Content/>
             {/* footer content */}
             <Footer/>
+            
           </div>
+          // <Bai1/>
         );
       }
     ;
