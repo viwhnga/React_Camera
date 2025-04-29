@@ -4,6 +4,17 @@ import Header from '../Header/Header';
 import Content from '../Content/Content';
 import Footer from '../Footer/Footer';
 import Bai1 from '../../BtProps/Bai1';
+import { Dientich_hcn } from '../BT/Dientich_hcn';
+import Method from '../BT/Method';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FormBasic from '../BT/FormBasic';
+import Diem_tb from '../BT/Diem_tb';
+import Bed from '../Thoitrang/Bed';
+import ThoiTrangNam from '../Thoitrang/ThoiTrangNam';
+import ProductList from '../Thoitrang/ProductList';
+import Food from '../Thoitrang/Food';
+// import Item from 'Item';
+// import State from 'State';
 // import React, { Component } from 'react';
 
 // function One() {
@@ -16,12 +27,21 @@ import Bai1 from '../../BtProps/Bai1';
 // }
 function App() {
   return (
-          <div id="container">
-            <Header/>
+          <div >
+            {/* <State/> */}
+            {/* <Header/> */}
             {/* this is content area */}
-            <Content/>
+            {/* <Content/> */}
             {/* footer content */}
-            <Footer/>
+            {/* <Footer/> */}
+            {/* <Dientich_hcn/> */}
+            {/* <Method/> */}
+            {/* <FormBasic/> */}
+            {/* <Diem_tb/> */}
+            {/* <Bed/> */}
+            {/* <Food/> */}
+            {/* <ThoiTrangNam/> */}
+            <ProductList/>
             
           </div>
           // <Bai1/>

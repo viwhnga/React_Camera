@@ -1,0 +1,77 @@
+.food-order-app {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .menu-item {
+    margin-bottom: 15px;
+  }
+  
+  .menu-label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .menu-checkbox {
+    margin-right: 10px;
+  }
+  
+  .order-section {
+    margin-top: 20px;
+  }
+  
+  .money-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .result h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .result p {
+    font-size: 16px;
+    color: #555;
+  }
+  
