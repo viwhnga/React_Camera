@@ -99,7 +99,7 @@ class ProductList extends Component {
                         <div id="form" className="card p-3 mb-4">
                             <h4 className="mb-3">Thêm sản phẩm mới</h4>
                             <div className="form-group">
-                                <label htmlFor="name">Tên sản phẩm</label>
+                                <label htmlFor="name ">Tên sản phẩm</label>
                                 <input
                                     className="form-control"
                                     id="name"

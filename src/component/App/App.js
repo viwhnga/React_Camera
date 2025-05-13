@@ -13,6 +13,12 @@ import Bed from '../Thoitrang/Bed';
 import ThoiTrangNam from '../Thoitrang/ThoiTrangNam';
 import ProductList from '../Thoitrang/ProductList';
 import Food from '../Thoitrang/Food';
+import Home from '../Router/Home';
+import About from '../Router/About';
+import Contact from '../Router/Contact';
+import NoPage from '../Router/NoPage';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import MyRouter from '../MyRouter';
 // import Item from 'Item';
 // import State from 'State';
 // import React, { Component } from 'react';
@@ -28,6 +34,21 @@ import Food from '../Thoitrang/Food';
 function App() {
   return (
           <div >
+          <BrowserRouter>
+          <div>
+            <h2>Welcome to React Router Tutorial</h2>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <ul className="navbar-nav mr-auto">
+                <li><Link to="/" className="nav-link">Home</Link></li>
+                <li><Link to="/contact" className="nav-link">Contact</Link></li>
+                <li><Link to="/about" className="nav-link">About</Link></li>
+              </ul>
+            </nav>
+            <hr />
+            <MyRouter />
+          </div>
+        </BrowserRouter>
+
             {/* <State/> */}
             {/* <Header/> */}
             {/* this is content area */}
@@ -41,7 +62,7 @@ function App() {
             {/* <Bed/> */}
             {/* <Food/> */}
             {/* <ThoiTrangNam/> */}
-            <ProductList/>
+            {/* <ProductList/> */}
             
           </div>
           // <Bai1/>
